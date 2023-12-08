@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.screen-containers {
+  width: 100%;
+  height: auto;
+}
+/* стили экрана 1 */
+/* стили хедера */
+.screen-container-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0def1;
+  padding: 48px;
+  height: 100vh;
+}
+.container-heder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-logo {
+  max-width: 600px;
+  height: auto;
+}
+.header__text {
+  display: flex;
+  flex-direction: column;
+}
+.header__link {
+  text-decoration: none;
+  color: #8d70e1;
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+/* стили контента main */
+.book-cover {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-text {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #333333;
+  font-size: 48px;
+  width: 490px;
+  height: 180px;
+  font-family: "Inter", sans-serif;
+}
+
+.img-dog {
+  width: 55%;
+  height: auto;
+}
+.container-subtitle-3 {
+  justify-content: left;
+}
+
+.book__subtitle {
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  line-height: 60px;
+  font-style: italic;
+  font-weight: 700;
+  color: #333333;
+}
+.text-right {
+  margin: 0 0 0 180px;
+}
+.screen__btn {
+  width: 286px;
+  height: 80px;
+  background-color: #8d70e1;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  font-style: italic;
+}
+/* стили экрана 2 */
+.screen-container-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f7;
+  padding: 48px;
+  height: 100vh;
+}
+
+.subtitle-3 {
+  color: #333333;
+  font-size: 36px;
+  text-align: center;
+}
+.flex-container-1 {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container-img-1 {
+  display: flex;
+  justify-content: left;
+  height: 260px;
+  gap: 40px;
+  margin-top: 20px;
+}
+.image-зал-1 {
+  width: auto;
+  height: 260px;
+  margin-top: 0px;
+}
+.image-зал-2 {
+  width: auto;
+  height: 260px;
+  margin-top: 0px;
+}
+.subtitle-img-2 {
+  text-align: center;
+  color: #333333;
+  font-size: 24px;
+}
+.image-мойка {
+  margin-top: 20px;
+  width: auto;
+  height: 260px;
+}
+.flex-container-2 {
+  display: flex;
+  justify-content: left;
+  height: 260px;
+  gap: 80px;
+  padding-top: 50px;
+}
+.image-магазин {
+  height: 261px;
+  margin-left: px;
+  margin-top: 36px;
+}
+.text-container {
+  width: 700px;
+}
+.text-1 {
+  color: #333333;
+  font-size: 24px;
+  margin-top: 140px;
+  margin-left: 0px;
+}
+/* стили экрана 3 */
+.screen-container-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0def1;
+  padding: 48px;
+  height: 100vh;
+}
+.text-container-1 {
+  width: 100%;
+  justify-content: center;
+}
+.text-2 {
+  color: #333333;
+  font-size: 24px;
+  text-align: justify;
+}
+.flex-container-3 {
+  display: flex;
+  height: 260px;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.image-gruming-1 {
+  height: 260px;
+  margin-top: px;
+}
+.image-gruming-2 {
+  height: 260px;
+  margin-top: px;
+}
+.image-gruming-3 {
+  height: 260px;
+  margin-top: px;
+}
+.flex-container-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  gap: 186px;
+}
+.image-spa-1 {
+  height: 260px;
+  margin-top: px;
+}
+.image-spa-2 {
+  height: 260px;
+  margin-top: px;
+}
+.text-container-2 {
+  width: 100%;
+  justify-content: center;
+  margin-top: 70px;
+}
+.text-3 {
+  color: #333333;
+  font-size: 24px;
+  text-align: justify;
+}
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f7;
+  padding: 48px;
+}
+.flex-container-5 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px 0px 150px;
+
+  gap: 186px;
+}
+.screen__btn {
+  width: 286px;
+  height: 50px;
+  background-color: #8d70e1;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  font-style: italic;
+}
+.screen__btn-2 {
+  width: 360px;
+  height: 50px;
+  background-color: #8a898f;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  font-style: italic;
+}
+.flex-container-6 {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.flex-container-7 {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: right;
+  gap: 30px;
+}

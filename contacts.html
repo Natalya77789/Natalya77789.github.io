@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contacts.css">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__linner">
+                    <img class="img-logo" src="./images/logo.svg" />
+                    <nav class="menu">
+                      <ul class="menu__list">
+                        <li class="menu__list-item"><a href="./index.html" class="menu__list-link">Главная</a></li>
+                        <li class="menu__list-item"><a href="./projects.html" class="menu__list-link">Проекты</a></li>
+                        <li class="menu__list-item"><a href="./skills.html" class="menu__list-link">Навыки</a></li>
+                        <li class="menu__list-item"><a href="./additional.html" class="menu__list-link">Дополнительно</a></li>
+                        <li class="menu__list-item"><a href="#" class="menu__list-link">Контакты</a></li>
+                      </ul>    
+                    </nav>
+                </div> 
+            </div>
+        </header>
+        <main class="main">
+            <section class="flex-container__form">
+                <div class="form-caiiback">
+                    <h3 class="title__form">Форма обратной связи:</h3>
+                    <form>
+                        <p>
+                            <label for="userName">Имя пользователя:</label>
+                            <input id="userName" type="text" placeholder="Введите имя" required>
+                        </p>
+                        <p>
+                            <label for="userCity">Город:</label>
+                            <input id="userCity" type="text" placeholder="Введите город (область)">
+                        </p>
+                        <p>
+                            <label for="userEmail">Email</label>
+                            <input id="userEmail" type="email" placeholder="Введите почту">
+                        </p>
+                        <p class="text-time">Укажите предпочтительный<br>
+                             интервал времени для связи:</p>
+
+                        </p>
+                        <p>
+                            <label for="userName">Дата:</label>
+                            <input type="date">
+                        </p>
+                        <p>
+                            <label for="end-time">Конечное время:</label>
+                            <input id="end-time" type="time">
+                        </p>
+                        <p>
+                            <label for="start-time">Начальное время:</label>
+                            <input id="start-time" type="time">
+                        </p>
+                        <p>
+                            <label for="file">Прикрепите файл:</label><br>
+                            <input type="file"id="file">
+                        </p>
+                        <p>
+                            <label for="comment">Введите комментарий:</label><br>
+                            <textarea name="comment" id="comment" cols="30" rows="10"></textarea><br> 
+                        </p>
+                   
+                        <input type="submit">
+                    </form>
+                </div>
+                <div class="form-caii">
+                    <h2 class="title__form">Мои контакты:</h2>
+                    <p class="text__form">Moe имя: Наталья<br>
+                       Город проживания: Москва<br>
+                       Мой моб.телефон:<a href="tel:+79164860086">+7(916)486-00-86</a> <br>
+                       Мой e-mail:<a href="anda9@mail.ru">anda9@mail.ru</a>
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="text">
+                <p><span class="address">г. Москва</span><span class="telephone">тел. 8(916)486-00-86</span></p>   
+            </div>
+            <div class="flex-container">
+                <p><span class="copyright">&#169 Использовано изображение</span>
+                    <span class="copyright-a">
+                        <a href="https://img.freepik.com/free-photo/html-system-websites-concept_23-2150323500.jpg?size=626&ext=jpg&ga=GA1.1.1243382590.1701122573&semt=ais" target="_blank">Freepik.com</a>
+                </p>
+                <div class="icon-block">
+                    <a href="https://github.com/" target="_blank"><img src="./images/Icon GH.svg" class="icon-GH"></a>
+                    <a href="https://ru.pinterest.com/" target="_blank"><img src="./images/Icon Pinterest.svg" class="icon-Pinterest"></a>
+                </div> 
+            </div>
+
+        </footer>
+    </div>
+    
+</body>
+</html>
